@@ -5,7 +5,7 @@ The purpose of this project is educational so small students can control 2 servo
 I'm sorry, but only Italian labels are available at the moment. You can translate or add yours following the expected schema.
 
 I'm not a real expert with Scratch developing, so for sure there are better ways to let Arduino communicate with Scratch 3.
-However, my extension works and the children were very happy: D
+However, my extension works and the children were very happy :smirk:
 
 In order to use an Arduino Uno with Scratch 3.0 we need to access serial port. 
 As I know, it's not possible directly from Scratch, so we can use node.js and websockets: Scratch extension will receive data from websocket.
@@ -22,7 +22,7 @@ Arduino Uno has to be programmed with the provided custom firmware. Although it 
 - 14 APA102 RGB1 (software SPI): D12, D10
 - 14 APA102 RGB2 (software SPI): D9, D8
 
-Follow original LLK instruction and once installed scratch-gui from this repository you need to start websocket/serial server on the PC where Arduino is connected before use extension.
+Follow original LLK instruction (you can find below) and once installed scratch-gui from this repository you need to start websocket/serial server on the PC where Arduino is connected before use extension.
 ```bash
 cd serialport
 node wsServer.js
