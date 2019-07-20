@@ -1,6 +1,6 @@
 This is a fork from https://github.com/LLK/scratch-gui
 
-The purpose of this project is educational so small students can control 2 servos, 4 buttons, several addressable RGB leds (FastLED), 1 pot, 1 ultrasonic sensor, 1 LDR and play some mp3 with a DFPlayer mini attached to Arduino Uno with Scratch 3.ù
+The purpose of this project is educational so small students can control 2 servos, 4 buttons, several addressable RGB leds (FastLED), 1 pot, 1 ultrasonic sensor, 1 LDR and play some mp3 with a DFPlayer mini attached to Arduino Uno with Scratch 3.
 
 I'm sorry, but only Italian labels are available at the moment. You can translate or add yours following the expected schema.
 
