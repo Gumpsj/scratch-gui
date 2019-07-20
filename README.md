@@ -8,7 +8,7 @@ I'm not a real expert with Scratch developing, so for sure there are better ways
 However, my extension works and the children were very happy: D
 
 In order to use an Arduino Uno with Scratch 3.0 we need to access serial port. 
-It's not possible directly from Scratch, so we can use node.js and websockets: Scratch extension will receive data from websocket.
+As I know, it's not possible directly from Scratch, so we can use node.js and websockets: Scratch extension will receive data from websocket.
 Arduino Uno has to be programmed with the custom firmware provided.
 
 Follow original LLK instruction and once installed scratch-gui from this repository you need to start websocket/serial server on the PC where Arduino is connected before use extension.
