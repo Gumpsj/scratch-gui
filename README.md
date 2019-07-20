@@ -22,12 +22,11 @@ Arduino Uno has to be programmed with the provided custom firmware. Although it 
 - 14 APA102 RGB1 (software SPI): D12, D10
 - 14 APA102 RGB2 (software SPI): D9, D8
 
-Follow original LLK instruction (you can find below) and once installed scratch-gui from this repository you need to add some additional modules:
-```bash
-npm install serialport
-npm install websocket
-npm install crc-full
-```
+Follow original LLK instruction (you can find below).
+You have to install scratch-gui from this repository because we need some additional modules added as dependencies:
+- serialport
+- websocket
+- crc-full
 
 Run Scratch 3
 ```bash
@@ -40,6 +39,8 @@ Before loading extension you need to start websocket/serial server on the PC whe
 cd serialport
 node wsServer.js
 ```
+
+Then go to [http://localhost:8601/](http://localhost:8601/)
 
 
 # scratch-gui
