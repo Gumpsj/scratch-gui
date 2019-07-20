@@ -1,3 +1,22 @@
+This is a fork from https://github.com/LLK/scratch-gui
+
+The purpose of this project is educational so small students can control 2 servos, 4 buttons, several addressable RGB leds (FastLED), 1 pot, 1 ultrasonic sensor, 1 LDR and play some mp3 with a DFPlayer mini attached to Arduino Uno with Scratch 3.
+I'm sorry, but only Italian labels are available at the moment. You can translate or add yours following the expected schema.
+
+I'm not a real expert with Scratch developing, so for sure there are better ways to let Arduino communicate with Scratch 3.
+However, my extension works and the children were very happy: D
+
+In order to use an Arduino Uno with Scratch 3.0 we need to access serial port. 
+It's not possible directly from Scratch, so we can use node.js and websockets: Scratch extension will receive data from websocket.
+Arduino Uno has to be programmed with the custom firmware provided.
+
+Follow original LLK instruction and once installed scratch-gui from this repository you need to start websocket/serial server on the PC where Arduino is connected before use extension.
+```bash
+cd serialport
+node wsServer.js
+```
+
+
 # scratch-gui
 #### Scratch GUI is a set of React components that comprise the interface for creating and running Scratch 3.0 projects
 
