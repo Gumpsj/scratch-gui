@@ -12,15 +12,15 @@ As I know, it's not possible directly from Scratch, so we can use node.js and we
 
 Arduino Uno has to be programmed with the provided custom firmware. Although it would be possible to define the pins from Scratch, in order to keep the interface very simple, the connections are hard-coded and therefore it is necessary to respect the expected scheme or edit the firmware.
 
-Pot: A0
-LDR: A1
-Input pins: A2, A3, A4, A5
-Servo motor: D5, D6
-DFPlayer (software serial): D4, D5
-HC-SR04 (ultrasonic): D2, D3;
-92 APA102 RGB LED (hardware SPI): D11, D13
-14 APA102 RGB1 (software SPI): D12, D10
-14 APA102 RGB2 (software SPI): D9, D8
+- Pot: A0
+- LDR: A1
+- Input pins: A2, A3, A4, A5
+- Servo motor: D5, D6
+- DFPlayer (software serial): D4, D5
+- HC-SR04 (ultrasonic): D2, D3;
+- 92 APA102 RGB LED (hardware SPI): D11, D13
+- 14 APA102 RGB1 (software SPI): D12, D10
+- 14 APA102 RGB2 (software SPI): D9, D8
 
 Follow original LLK instruction and once installed scratch-gui from this repository you need to start websocket/serial server on the PC where Arduino is connected before use extension.
 ```bash
