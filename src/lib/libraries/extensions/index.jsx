@@ -46,7 +46,30 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import arduinoImage from './arduino/arduino.jpg';
+import arduinoInsetImage from './arduino/arduino-small.png';
+
 export default [
+	{
+		name: (
+            <FormattedMessage
+                defaultMessage="Arduino"
+                description="Name for the 'Arduino' extension"
+                id="gui.extension.arduino.name"
+            />
+        ),
+        extensionId: 'arduino',
+        iconURL: arduinoImage,
+        insetIconURL: arduinoInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="Play with Arduino."
+                description="Description for the 'Arduino' extension"
+                id="gui.extension.arduino.description"
+            />
+        ),
+        featured: true
+    },
     {
         name: (
             <FormattedMessage
