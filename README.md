@@ -23,12 +23,12 @@ Arduino Uno has to be programmed with the provided custom firmware. Although it 
 - 14 APA102 RGB2 (software SPI): D9, D8
 
 Follow original LLK instruction (you can find below).
-You have to install scratch-gui from this repository because we need some additional modules added as dependencies:
-- serialport
-- websocket
-- crc-full
+You have to install scratch-gui from this repository because we need some additional modules added as dependencies (serialport, websocket, crc-full) and a forked version of scratch-vm (where you can find the extension working code).
 
-Run Scratch 3
+https://github.com/cotestatnt/scratch-vm/tree/develop/src/extensions
+
+
+To run Scratch 3
 ```bash
 npm start
 ```
